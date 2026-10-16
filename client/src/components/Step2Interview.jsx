@@ -291,8 +291,8 @@ function Step2Interview({ interviewData, onFinish }) {
       console.log(result.data)
       onFinish(result.data)
     } catch (error) {
-      console.log("Finish error:", error.response?.data || error.message)   // 👈 changed this line
-    console.log("interviewId being sent:", interviewId)  
+      console.log("Finish error:", error.response?.data || error.message)
+console.log("interviewId being sent:", interviewId) 
     }
   }
 
