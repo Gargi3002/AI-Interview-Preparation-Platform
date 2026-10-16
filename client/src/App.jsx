@@ -3,7 +3,7 @@ import {Route,Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
 import { useEffect } from 'react'
-export const ServerUrl="http://localhost:8000"
+export const ServerUrl="https://ai-interview-preparation-platform-69ep.onrender.com/"
 import axios from 'axios'
 import { setUserData } from './redux/userSlice'
 import {useDispatch} from 'react-redux'
