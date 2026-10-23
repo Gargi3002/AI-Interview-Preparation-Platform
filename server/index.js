@@ -11,7 +11,7 @@ import interviewRouter from "./routes/interview.route.js"
 
 const app=express()
 app.use(cors({
-    origin:"http://localhost:5174" ,//request is allowed from this url
+    origin:"https://ai-interview-preparation-platform-1-lzmx.onrender.com" ,//request is allowed from this url
     credentials:true
 }))
 //establishinng connection between client and
